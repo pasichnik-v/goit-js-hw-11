@@ -2,5 +2,5 @@ export { fetchCountries };
 
 
   function fetchCountries(name) {
-return fetch(`https://restcountries.com/v3.1/name/${name}?fields=name,flags,capital,population,languages`)
+return fetch(`https://pixabay.com/api/`, options)
   .then(response => response.json())
